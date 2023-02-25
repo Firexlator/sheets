@@ -1,0 +1,14 @@
+#!/bin/bash
+sudo apt update
+sudo apt install yad p7zip -y
+yad --text="Starting Installation of Sheets server"
+cd ~/
+mkdir .cache
+cd .cache
+clear
+wget https://www.dropbox.com/s/9a00i6vmdsvykcv/sheetsv1.zip
+cd ~/
+mkdir Sheets
+cd Sheets
+7z x ../.cache/sheetsv1.zip
+rm ../.cache/sheetsv1.zip
