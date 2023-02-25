@@ -6,7 +6,7 @@ cd ~/
 mkdir .cache
 cd .cache
 clear
-wget https://www.dropbox.com/s/9a00i6vmdsvykcv/sheetsv1.zip?dl=1
+wget https://www.dropbox.com/s/9a00i6vmdsvykcv/sheetsv1.zip
 cd ~/
 mkdir Sheets
 cd Sheets
